@@ -12,7 +12,7 @@
 body {
     background-color:var(--main-color);
     font-family: var(--main-font);
-    
+    letter-spacing: 0.03em;
 }
 
 body li {
@@ -28,9 +28,7 @@ header {
 }
 .logo-accent {
     color:var(--accent-color);
-    font-family: var(--accent-font);
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
@@ -44,7 +42,7 @@ header {
         color: var(--second-text-color);
         font-family: var(--accent-font);
         font-style: normal;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
         text-decoration: none;
@@ -63,8 +61,7 @@ header {
 .mail {
     text-decoration: none;
     color: var(--accent-color);
-    font-family: var(--main-font);
-    font-style: normal;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;}
@@ -78,8 +75,6 @@ header {
 .mail-portfolio {
     text-decoration: none;
     color: var(--primary-text-color);
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;}
@@ -92,8 +87,6 @@ header {
 
 .tel {
     color: var(--primary-text-color);
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -104,8 +97,6 @@ header {
 .site-nav a{
     text-decoration: none;
     color: var(--second-text-color);
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
@@ -127,8 +118,6 @@ header {
 
 .hero h1 {
     color: #ffffff;
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
@@ -140,67 +129,50 @@ header {
 .button {
     background-color: var(--accent-color);
     color: #ffffff;
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
 }
 .section-title {
-    font-family: var(--main-font);
     color: var(--second-text-color);
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .section-title h2 {
-    font-family: var(--main-font);
     color: var(--primary-text-color);
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
-    letter-spacing: 0.03em;
+    
 }
 .about-us {
-    font-family: var(--main-font);
     color: var(--primary-text-color);
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
-    letter-spacing: 0.03em;
 }
 .our-work {
-    font-family: var(--main-font);
     color:  var(--second-text-color);
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .our-team {
     background-color: var(--second-color);
 }
 .team-members {
-    font-family: var(--main-font);
     color: var(--second-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
 .team-p {
-    font-family: var(--main-font);
     color: var(--primary-text-color);
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -218,10 +190,9 @@ footer {
 .footer-logo {
     font-family: var(--accent-font);
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.20;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 .footer-logo:hover,
@@ -231,22 +202,17 @@ footer {
                 color: var(--accent-color);
             }
 address {
-    font-family: var(--main-font);
     color: #ffffff;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
-    letter-spacing: 0.03em;
 }
 .footer-contacts {
-    font-family: var(--main-font);
     color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 .footer-contacts:active,
@@ -257,37 +223,28 @@ address {
 .current-button {
     background: var(--accent-color);
     color: #ffffff;
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    letter-spacing: 0.03em;}
+   }
                
 .buttons {
     background:var(--second-color);
     color: var(--second-text-color);
-    font-family: var(--main-font);
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
 }        
 .project-title {
-    font-family: var(--main-font);
     color: var(--second-text-color);
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     }         
 .about-project {
-    font-family: var(--main-font);
     color: var(--primary-text-color);
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 }
