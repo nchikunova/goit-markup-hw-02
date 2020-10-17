@@ -61,7 +61,6 @@ header {
 .mail {
     text-decoration: none;
     color: var(--accent-color);
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;}
@@ -216,7 +215,7 @@ address {
     text-decoration: none;
 }
 .footer-contacts:active,
-                :focus { text-decoration: underline;
+.footer-contacts:focus { text-decoration: underline;
                          color: var(--accent-color); }
 
 /* Portfolio-page */
