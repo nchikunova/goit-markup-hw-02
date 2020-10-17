@@ -67,10 +67,10 @@ header {
     line-height: 1.15;}
 
 .mail:hover,
-     :active {
-        text-decoration: underline
-        var(--accent-color);
-     }
+.mail:active {
+       text-decoration: underline
+       var(--accent-color);
+    }
 
 .mail-portfolio {
     text-decoration: none;
@@ -80,7 +80,7 @@ header {
     line-height: 1.15;}
 
 .mail-portfolio:hover,
-               :active {
+.mail-portfolio:active {
                  text-decoration: underline
                  var(--accent-color);
                }
