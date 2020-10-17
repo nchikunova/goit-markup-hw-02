@@ -108,7 +108,7 @@ header {
 
 
 .link:hover,
-     :focus {
+.link:focus {
         color: var(--accent-color);
     }
 
@@ -196,8 +196,8 @@ footer {
     text-decoration: none;
 }
 .footer-logo:hover,
-            :focus,
-            :active {
+.footer-logo:focus,
+.footer-logo:active {
                 text-decoration: underline;
                 color: var(--accent-color);
             }
